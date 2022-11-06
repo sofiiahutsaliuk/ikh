@@ -52,7 +52,7 @@ h2{
 }
 
 .menu a, menu a:visited{
-    border:1px solid #232c33;
+    border:1px solid #6DA34D;
     padding:5px;
     margin:10px;
     flex-grow: 1;
@@ -60,14 +60,14 @@ h2{
 }
 
 .menu a:hover{
-    color: #916953;
-    border:1px solid #916953;
+    color: #6DA34D;
+    border:1px solid #6DA34D;
 }
 
 .menu a:active{
     color: #f3f7f0;
-    background-color: #232c33;
-    border:1px solid #232c33;
+    background-color: #6DA34D;
+    border:1px solid #6DA34D;
 }
 
 /* #endregion */
@@ -85,7 +85,7 @@ footer a, footer a:visited{
 }
 
 footer a:hover, footer a:active{
-    color: #916953;
+    color: #6DA34D;
 }
 
 
@@ -163,16 +163,23 @@ footer a:hover, footer a:active{
 
 }
 
-.monitor_news input:hover{
-    color: #916953;
-    border:1px solid #916953;
+.news_deny:hover, .news_accept:hover{
+    color: #6DA34D;
+    border:1px solid #6DA34D;
 }
 
-.monitor_news input:active{
+.news_accept:active{
+    color: #f3f7f0;
+    background-color: #6DA34D;
+    border:1px solid #6DA34D;
+}
+
+.news_deny:active{
+    color: #f3f7f0;
     background-color: #232c33;
     border:1px solid #232c33;
-    color: #f3f7f0;
 }
+
 
 
 .link_container{
@@ -230,18 +237,18 @@ footer a:hover, footer a:active{
 }
 
 .form input[type=button]:hover{
-    color: #916953;
-    border:1px solid #916953;
+    color: #6DA34D;
+    border:1px solid #6DA34D;
 }
 
 .form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus{
-    border:1px solid #916953;
+    border:1px solid #6DA34D;
 }
 
 .form input[type=button]:active{
     color: #f3f7f0;
-    background-color: #232c33;
-    border:1px solid #232c33;
+    background-color: #6DA34D;
+    border:1px solid #6DA34D;
 }
 
 
