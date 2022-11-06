@@ -1,6 +1,7 @@
 *{
     color: #232c33;
     text-decoration: none;
+    font-size: 20px;
 }
 
 body{
@@ -31,12 +32,14 @@ h1{
     line-height: 60px;
     text-align: center;
     margin-bottom: 0;
+    font-size: 32px;
 }
 
 h2{
     text-align: center;
     margin-top:0;
     line-height: 20px;
+    font-size: 26px;
 }
 
 /* #endregion */
@@ -97,6 +100,10 @@ footer a:hover, footer a:active{
     padding: 0 20px;
 }
 
+.main_news li h3{
+    font-size: 22px;
+}
+
 .main_news li{
     border-bottom: 1px #232c33 dashed;
     padding:10px;
@@ -108,5 +115,67 @@ footer a:hover, footer a:active{
 
 /* #endregion */
 
+/* #region monitor*/
 
+/*.icon_setting{
+    height:30px;
+    width:30px;
+    position: relative;
+    left:950px;
+    margin:10px;
+}*/
+
+.monitor_news{    
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0 20px;
+}
+
+.monitor_news li{
+    border-top: 1px #232c33 dashed;
+    padding:10px;
+}
+
+.monitor_setting {
+    text-align: center;
+    margin:10px;
+}
+
+.setting_container{
+    display: flex;
+    justify-content: center;
+}
+
+.monitor_news form{
+    display: flex;
+    flex-direction: row;
+}
+
+.monitor_news input{
+    height:25px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    padding:2px 4px;
+    line-height: 18px;
+    box-sizing: content-box;
+    margin:0 10px;
+    border:1px solid #232c33;
+    background-color: #f3f7f0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.monitor_news input:active{
+    color: #f3f7f0;
+    background-color: #232c33;
+    border:1px solid #232c33;
+}
+
+.link_container{
+    width:700px;
+}
+
+
+/* #endregion */
 
