@@ -25,29 +25,66 @@
         </div>
 
         <div class="content">
-            <form class="send_mail" id="grom_org_mail_form">
+            <form class="form" id="grom_org_mail_form">
 
                 <div class="form_row">
-                    <label for="grom_mail">Адресат:</label>
-                    <input type="email"  id="grom_mail" name="grom_mail" required/><br>
+                    <label for="grom_mail_email">Адресат:</label>
+                    <input type="email"  id="grom_mail_email" name="grom_mail_email" required/><br>
                 </div>
                 
                 <div class="form_row">
-                    <label for="grom_theme">Тема: </label>
-                    <input type="text"  id="grom_theme" name="grom_theme" required/><br>
+                    <label for="grom_mail_theme">Тема: </label>
+                    <input type="text"  id="grom_mail_theme" name="grom_mail_theme" required/><br>
                 </div>
 
                 <div class="form_row">
-                    <label for="grom_body">Текст: </label>
-                    <textarea form="grom_org_mail_form" id="grom_body" name="grom_body"></textarea><br>
+                    <label for="grom_mail_body">Текст: </label>
+                    <textarea form="grom_org_mail_form" id="grom_mail_body" name="grom_mail_body"></textarea><br>
                 </div>
 
                 <div class="form_row">
-                    <label for="grom_file">Файл: </label>
-                    <input type="file" id="grom_file" name="grom_file" multiple /><br>
+                    <label for="grom_mail_file">Файл: </label>
+                    <input type="file" id="grom_mail_file" name="grom_mail_file" multiple /><br>
                 </div>
 
-                <input type="button" id="grom_submit" class="grom_submit" value="Відправити" />
+                <input type="button" id="grom_mail_submit" class="grom_mail_submit" value="Відправити" />
+
+            </form>
+
+
+            <form class="form" id="grom_org_prop_form">
+                    
+                <div class="form_row">
+                    <label for="grom_prop_title">Назва: </label>
+                    <input type="text" id="grom_prop_title" name="grom_prop_title" />
+                </div>  
+
+                <div class="form_row">
+                    <label for="grom_prop_mail">Пошта: </label>
+                    <input type="email" id="grom_prop_mail" name="grom_prop_mail" />
+                </div>  
+
+                <div class="form_row">
+                    <label for="grom_prop_phone">Телефон: </label>
+                    <input type="text" id="grom_prop_phone" name="grom_prop_phone" />
+                </div>    
+
+                <div class="form_row">
+                    <label for="grom_prop_adr">Адреса: </label>
+                    <input type="text" id="grom_prop_adr" name="grom_prop_adr" />
+                </div>
+                
+                <div class="form_row">
+                    <label for="grom_prop_body">Текст: </label>
+                    <textarea form="grom_org_prop_form" id="grom_prop_body" name="grom_prop_body"></textarea><br>
+                </div>
+                
+                <div class="form_row">
+                    <label for="grom_prop_file">Файл: </label>
+                    <input type="file" id="grom_prop_file" name="grom_prop_file" multiple /><br>
+                </div>
+
+                <input type="button" id="grom_prop_submit" class="grom_prop_submit" value="Сформувати" />
 
             </form>
         </div>

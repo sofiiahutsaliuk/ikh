@@ -25,29 +25,65 @@
         </div>
 
         <div class="content">
-            <form class="send_mail" id="vol_org_mail_form">
+            <form class="form" id="vol_org_mail_form">
 
                 <div class="form_row">
-                    <label for="vol_mail">Адресат:</label>
-                    <input type="email"  id="vol_mail" name="vol_mail" required/><br>
+                    <label for="vol_mail_email">Адресат:</label>
+                    <input type="email"  id="vol_mail_email" name="vol_mail_email" required/><br>
                 </div>
                 
                 <div class="form_row">
-                    <label for="vol_theme">Тема: </label>
-                    <input type="text"  id="vol_theme" name="vol_theme" required/><br>
+                    <label for="vol_mail_theme">Тема: </label>
+                    <input type="text"  id="vol_mail_theme" name="vol_mail_theme" required/><br>
                 </div>
 
                 <div class="form_row">
-                    <label for="vol_body">Текст: </label>
-                    <textarea form="vol_org_mail_form" id="vol_body" name="vol_body"></textarea><br>
+                    <label for="vol_mail_body">Текст: </label>
+                    <textarea form="vol_org_mail_form" id="vol_mail_body" name="vol_mail_body"></textarea><br>
                 </div>
 
                 <div class="form_row">
-                    <label for="vol_file">Файл: </label>
-                    <input type="file" id="vol_file" name="vol_file" multiple /><br>
+                    <label for="vol_mail_file">Файл: </label>
+                    <input type="file" id="vol_mail_file" name="vol_mail_file" multiple /><br>
                 </div>
 
-                <input type="button" id="vol_submit" class="vol_submit" value="Відправити" />
+                <input type="button" id="vol_mail_submit" class="vol_mail_submit" value="Відправити" />
+
+            </form>
+
+            <form class="form" id="vol_org_prop_form">
+                    
+                <div class="form_row">
+                    <label for="vol_prop_title">Назва: </label>
+                    <input type="text" id="vol_prop_title" name="vol_prop_title" />
+                </div>  
+
+                <div class="form_row">
+                    <label for="vol_prop_mail">Пошта: </label>
+                    <input type="email" id="vol_prop_mail" name="vol_prop_mail" />
+                </div>  
+
+                <div class="form_row">
+                    <label for="vol_prop_phone">Телефон: </label>
+                    <input type="text" id="vol_prop_phone" name="vol_prop_phone" />
+                </div>    
+
+                <div class="form_row">
+                    <label for="vol_prop_adr">Адреса: </label>
+                    <input type="text" id="vol_prop_adr" name="vol_prop_adr" />
+                </div>
+                
+                <div class="form_row">
+                    <label for="vol_prop_body">Текст: </label>
+                    <textarea form="vol_org_prop_form" id="vol_prop_body" name="vol_prop_body"></textarea><br>
+                </div>
+                
+                <div class="form_row">
+                    <label for="vol_prop_file">Файл: </label>
+                    <input type="file" id="vol_prop_file" name="vol_prop_file" multiple /><br>
+                </div>
+
+                <input type="button" id="vol_prop_submit" class="vol_prop_submit" value="Сформувати" />
 
             </form>
         </div>

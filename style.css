@@ -184,14 +184,14 @@ footer a:hover, footer a:active{
 
 /* #region grom_vol_org */
 
-.send_mail{
+
+.form{
     width:400px;
-    height:400px;
     border:1px solid #232c33;
     padding:10px;
 }
 
-.send_mail label{
+.form label{
     width:80px;
     display: inline-block;
 }
@@ -201,12 +201,12 @@ footer a:hover, footer a:active{
     box-sizing: content-box;
 }
 
-.send_mail input, .send_mail textarea{
+.form input, .form textarea{
     font-size:16px;
     line-height: 16px;
 }
 
-.send_mail input[type=text], .send_mail input[type=email], .send_mail textarea{
+.form input[type=text], .form input[type=email], .form textarea{
     font-size:14px;
     line-height: 14px;
     box-sizing: content-box;
@@ -216,12 +216,12 @@ footer a:hover, footer a:active{
     width:300px;
 }
 
-.send_mail textarea{
+.form textarea{
     height:240px;
     resize: none;
 }
 
-.send_mail input[type=button]{
+.form input[type=button]{
     border:1px solid #232c33;
     padding:5px;
     margin-top:10px;
@@ -229,15 +229,28 @@ footer a:hover, footer a:active{
     text-align:center;
 }
 
-.send_mail input[type=button]:hover{
+.form input[type=button]:hover{
     color: #916953;
     border:1px solid #916953;
 }
 
-.send_mail input[type=button]:active{
+.form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus{
+    border:1px solid #916953;
+}
+
+.form input[type=button]:active{
     color: #f3f7f0;
     background-color: #232c33;
     border:1px solid #232c33;
+}
+
+
+#grom_org_mail_form{
+    height:400px;
+}
+
+#grom_org_prop_form{
+    height:500px;
 }
 
 /* #endregion */
