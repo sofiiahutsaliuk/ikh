@@ -72,7 +72,6 @@ h2{
 
 /* #endregion */
 
-
 /* #region footer*/
 footer{
     display: flex;
@@ -154,8 +153,6 @@ footer a:hover, footer a:active{
 .monitor_news input{
     height:25px;
     font-size: 18px;
-    text-decoration: none;
-    font-weight: normal;
     padding:2px 4px;
     line-height: 18px;
     box-sizing: content-box;
@@ -166,11 +163,17 @@ footer a:hover, footer a:active{
 
 }
 
+.monitor_news input:hover{
+    color: #916953;
+    border:1px solid #916953;
+}
+
 .monitor_news input:active{
-    color: #f3f7f0;
     background-color: #232c33;
     border:1px solid #232c33;
+    color: #f3f7f0;
 }
+
 
 .link_container{
     width:700px;
@@ -179,3 +182,62 @@ footer a:hover, footer a:active{
 
 /* #endregion */
 
+/* #region grom_vol_org */
+
+.send_mail{
+    width:400px;
+    height:400px;
+    border:1px solid #232c33;
+    padding:10px;
+}
+
+.send_mail label{
+    width:80px;
+    display: inline-block;
+}
+
+.form_row{
+    margin:10px 0 0 0;
+    box-sizing: content-box;
+}
+
+.send_mail input, .send_mail textarea{
+    font-size:16px;
+    line-height: 16px;
+}
+
+.send_mail input[type=text], .send_mail input[type=email], .send_mail textarea{
+    font-size:14px;
+    line-height: 14px;
+    box-sizing: content-box;
+    border:1px solid #232c33;
+    background-color: #f3f7f0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width:300px;
+}
+
+.send_mail textarea{
+    height:240px;
+    resize: none;
+}
+
+.send_mail input[type=button]{
+    border:1px solid #232c33;
+    padding:5px;
+    margin-top:10px;
+    flex-grow: 1;
+    text-align:center;
+}
+
+.send_mail input[type=button]:hover{
+    color: #916953;
+    border:1px solid #916953;
+}
+
+.send_mail input[type=button]:active{
+    color: #f3f7f0;
+    background-color: #232c33;
+    border:1px solid #232c33;
+}
+
+/* #endregion */

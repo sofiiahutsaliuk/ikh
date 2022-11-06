@@ -25,7 +25,31 @@
         </div>
 
         <div class="content">
-            
+            <form class="send_mail" id="grom_org_mail_form">
+
+                <div class="form_row">
+                    <label for="grom_mail">Адресат:</label>
+                    <input type="email"  id="grom_mail" name="grom_mail" required/><br>
+                </div>
+                
+                <div class="form_row">
+                    <label for="grom_theme">Тема: </label>
+                    <input type="text"  id="grom_theme" name="grom_theme" required/><br>
+                </div>
+
+                <div class="form_row">
+                    <label for="grom_body">Текст: </label>
+                    <textarea form="grom_org_mail_form" id="grom_body" name="grom_body"></textarea><br>
+                </div>
+
+                <div class="form_row">
+                    <label for="grom_file">Файл: </label>
+                    <input type="file" id="grom_file" name="grom_file" multiple /><br>
+                </div>
+
+                <input type="button" id="grom_submit" class="grom_submit" value="Відправити" />
+
+            </form>
         </div>
 
         <footer>
