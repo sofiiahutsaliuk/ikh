@@ -25,7 +25,39 @@
         </div>
 
         <div class="content">
+
+            <div class = "vol_list">
+                <div id = "vol_search">
+                    <form id="vol_search_form">
+                        <label for="vol_title">Пошук: </label>
+                        <input type="text" id="vol_title" name="vol_title" />
+                        <input type="button" value="Пошук">
+                    </form>
+                </div>
+
+                <ul class="monitor_news">
+                    <li class="form_news">
+                        <form>
+                            <div class="link_container">
+                                <a href="" target="_blank">Назва Назва Назва</a>
+                            </div>
+                            <input type="button" class="news_accept" value="Написати" />
+                        </form>
+                    </li>
+                    <li class="form_news">
+                        <form>
+                            <div class="link_container">
+                                <a href="" target="_blank">Назва Назва Назва</a>
+                            </div>
+                            <input type="button" class="news_accept" value="Написати" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
             <form class="form" id="vol_org_mail_form">
+
+                <h3 class = "form_title">Оформлення електронного листа</h3>
 
                 <div class="form_row">
                     <label for="vol_mail_email">Адресат:</label>
@@ -50,8 +82,9 @@
                 <input type="button" id="vol_mail_submit" class="vol_mail_submit" value="Відправити" />
 
             </form>
-
+<br>
             <form class="form" id="vol_org_prop_form">
+                <h3 class = "form_title">Оформлення пропозиції</h3>
                     
                 <div class="form_row">
                     <label for="vol_prop_title">Назва: </label>

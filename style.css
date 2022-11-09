@@ -150,7 +150,7 @@ footer a:hover, footer a:active{
     flex-direction: row;
 }
 
-.monitor_news input{
+.monitor_news input,   #vol_search input{
     height:25px;
     font-size: 18px;
     padding:2px 4px;
@@ -191,6 +191,22 @@ footer a:hover, footer a:active{
 
 /* #region grom_vol_org */
 
+#form_post_form{
+    width: 420px;
+}
+
+#form_post_form label{
+    width:100px;
+}
+
+#vol_search{
+    border-bottom: 1px #232c33 dashed;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
 
 .form{
     width:400px;
@@ -208,12 +224,12 @@ footer a:hover, footer a:active{
     box-sizing: content-box;
 }
 
-.form input, .form textarea{
+.form input, .form textarea, #vol_search input{
     font-size:16px;
     line-height: 16px;
 }
 
-.form input[type=text], .form input[type=email], .form textarea{
+.form input[type=text], .form input[type=email], .form textarea, #vol_search input[type=text]{
     font-size:14px;
     line-height: 14px;
     box-sizing: content-box;
@@ -228,7 +244,7 @@ footer a:hover, footer a:active{
     resize: none;
 }
 
-.form input[type=button]{
+.form input[type=button],  #vol_search input[type=button]{
     border:1px solid #232c33;
     padding:5px;
     margin-top:10px;
@@ -241,23 +257,24 @@ footer a:hover, footer a:active{
     border:1px solid #6DA34D;
 }
 
-.form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus{
+.form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus, #vol_search[type=text]:focus{
     border:1px solid #6DA34D;
 }
 
-.form input[type=button]:active{
+.form input[type=button]:active, #vol_search input[type=button]:active{
     color: #f3f7f0;
     background-color: #6DA34D;
     border:1px solid #6DA34D;
 }
 
-
-#grom_org_mail_form{
-    height:400px;
+.form_news:first-child{
+    border-top:none;
 }
 
-#grom_org_prop_form{
-    height:500px;
+.form_title{
+    text-align: center;
 }
-
 /* #endregion */
+
+
+

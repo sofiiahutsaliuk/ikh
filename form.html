@@ -26,6 +26,42 @@
 
         <div class="content">
             
+            <ul class="monitor_news">
+                <li class="form_news">
+                    <form>
+                        <div class="link_container">
+                            <a href="" target="_blank">Посилання посилання посилання посилання</a>
+                        </div>
+                        <input type="button" class="news_accept" value="Сформувати допис" />
+                    </form>
+                </li>
+                <li class="form_news">
+                    <form>
+                        <div class="link_container">
+                            <a href="" target="_blank">Посилання посилання посилання посилання</a>
+                        </div>
+                        <input type="button" class="news_accept" value="Сформувати допис" />
+                    </form>
+                </li>
+            </ul>
+
+            
+            <form class="form" id="form_post_form">
+                <h3 class = "form_title">Оформлення допису</h3>
+
+                <div class="form_row">
+                    <label for="form_post_link">Посилання: </label>
+                    <input type="text"  id="form_post_link" name="form_post_link" required/><br>
+                </div>
+
+                <div class="form_row">
+                    <label for="form_post_text">Текст: </label>
+                    <textarea form="form_post_form" id="form_post_text" name="form_post_text"></textarea><br>
+                </div>
+
+                <input type="button" id="form_post_submit" class="form_post_submit" value="Відправити" />
+
+            </form>
         </div>
 
         <footer>
